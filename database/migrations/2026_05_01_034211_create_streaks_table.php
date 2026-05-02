@@ -10,11 +10,14 @@ return new class extends Migration
      * Run the migrations.
      */
     public function up(): void
-    {
+{
+    if (!Schema::hasTable('streaks')) {
         Schema::create('streaks', function (Blueprint $table) {
             $table->id();
             $table->timestamps();
         });
+    }
+}
     }
 
     /**
