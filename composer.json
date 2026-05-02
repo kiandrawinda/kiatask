@@ -74,6 +74,8 @@
             "dont-discover": []
         }
     },
+
+    
     "config": {
         "optimize-autoloader": true,
         "preferred-install": "dist",
@@ -85,4 +87,6 @@
     },
     "minimum-stability": "stable",
     "prefer-stable": true
+
+    
 }
